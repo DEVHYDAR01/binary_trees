@@ -1,9 +1,10 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_height_b - Measures height of a binary tree for a bal tree
- * @tree: tree to go through
- * Return: the height
+ * binary_tree_height_b - Function Measure
+ * the height of a binary tree for a balanced tree
+ * @tree: tree to go through is this
+ * Return: the height is this
  */
 
 size_t binary_tree_height_b(const binary_tree_t *tree)
@@ -27,9 +28,10 @@ size_t binary_tree_height_b(const binary_tree_t *tree)
 }
 
 /**
- * binary_tree_balance - Measures balance factor of a binary tree
- * @tree: tree to go through
- * Return: balanced factor
+ * binary_tree_balance - Funtion will Measure
+ * balance factor of a binary tree
+ * @tree: tree to go through is this
+ * Return: balanced factor is returned
  */
 
 int binary_tree_balance(const binary_tree_t *tree)

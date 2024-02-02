@@ -1,12 +1,12 @@
 #include "binary_trees.h"
 /**
- * binary_tree_size - function that return the size of a tree
- * @tree: tree to check
- * Return: size of tree
+ * binary_tree_size - function will return the size of a tree
+ * @tree: tree to check is this
+ * Return: size of tree is returned
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
-	size_t size = 0, r = 0, l = 0;
+	size_t size = 0, j = 0, k = 0;
 
 	if (tree == NULL)
 	{
@@ -14,9 +14,9 @@ size_t binary_tree_size(const binary_tree_t *tree)
 	}
 	else
 	{
-		l = binary_tree_size(tree->left);
-		r = binary_tree_size(tree->right);
-		size = r + l + 1;
+		k = binary_tree_size(tree->left);
+		j = binary_tree_size(tree->right);
+		size = j + k + 1;
 	}
 	return (size);
 }

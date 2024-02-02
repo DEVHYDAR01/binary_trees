@@ -1,7 +1,8 @@
 #include "binary_trees.h"
 /**
- * binary_tree_depth - depth of specified node from root
- * @tree: node to check the depth
+ * binary_tree_depth - Function to see the
+ * depth of specified node from root
+ * @tree: node to check the depth is this
  * Return: 0 is it is the root or number of depth
  */
 size_t binary_tree_depth(const binary_tree_t *tree)
